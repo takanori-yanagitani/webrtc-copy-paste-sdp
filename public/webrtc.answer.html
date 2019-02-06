@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>WebRTC Copy&Paste Answer</title>
+  <style type="text/css">
+    video {
+      width: 16px;
+      height: 16px;
+    }
+    textarea {
+      height: 64rem;
+      width: 64rem;
+    }
+  </style>
+</head>
+<body>
+  <video id="local"></video>
+  <video id="remote"></video>
+  <textarea id="send"></textarea>
+  <button id="setOffer">Set Offer</button>
+  <textarea id="receive"></textarea>
+  <script type="module" src="webrtc.answer.js"></script>
+</body>
+</html>
